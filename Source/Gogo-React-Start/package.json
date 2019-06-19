@@ -1,0 +1,56 @@
+{
+  "name": "gogo-react-start",
+  "version": "3.0.1",
+  "description": "Gogo Start - React Bootstrap 4 Admin Dashboard Template",
+  "scripts": {
+    "start": "webpack-dev-server --inline --history-api-fallback --progress --config webpack/dev.js",
+    "build": "webpack --config webpack/prod.js"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "Colored Strategies",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-react-transform": "^3.0.0",
+    "clean-webpack-plugin": "^1.0.1",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-filter-warnings-plugin": "^1.2.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "classnames": "2.2.6",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-intl": "2.4.0",
+    "react-perfect-scrollbar": "^1.1.1",
+    "react-redux": "5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-transition-group": "^1.2.0",
+    "reactstrap": "^6.5.0",
+    "redux": "4.0.0",
+    "redux-saga": "^0.16.0"
+  }
+}
